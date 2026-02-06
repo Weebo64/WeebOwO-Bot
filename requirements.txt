@@ -1,0 +1,29 @@
+# Discord.py - Discord API wrapper
+discord.py>=2.3.0
+
+# YouTube and media downloading
+yt-dlp>=2023.0.0
+
+# Spotify integration
+spotipy>=2.23.0
+
+# Text-to-speech
+gTTS>=2.3.0
+
+# Image processing
+Pillow>=10.0.0
+
+# HTTP requests
+aiohttp>=3.8.0
+requests>=2.31.0
+
+# Giphy API (if used)
+giphy-client>=1.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# FFmpeg for audio (install separately)
+# Windows: https://www.gyan.dev/ffmpeg/builds/
+# Linux: sudo apt install ffmpeg
+# Mac: brew install ffmpeg
