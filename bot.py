@@ -20,7 +20,6 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 @bot.event
 async def on_ready():
     activities = [
-        discord.Streaming(name="with My Pookie <3", url="https://www.twitch.tv/weebo64"),
         discord.Streaming(name="im silly :3", url="https://www.twitch.tv/weebo64"),
         discord.Streaming(name="type /help for commands", url="https://www.twitch.tv/weebo64"),
         discord.CustomActivity(name="Bot made by Weebo64!"),
@@ -80,3 +79,4 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         print("Bot stopped manually.")
+
